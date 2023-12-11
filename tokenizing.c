@@ -63,7 +63,7 @@ void tokenizing(void) {
 	char* nextSentence = NULL;
 	int sentencesCounter;
 	do {
-		printf("Type a few Phrases Seperated by comma(q - to quit):\n");
+		printf("Type a few Phrases Seperated by periods(q - to quit):\n");
 		fgets(sentences, BUFFER_SIZE, stdin);
 		sentences[strlen(sentences) - 1] = '\0';
 		if ((strcmp(sentences, "q") != 0)) {
